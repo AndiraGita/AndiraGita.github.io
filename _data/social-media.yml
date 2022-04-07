@@ -1,0 +1,29 @@
+email:
+  id: 'andiragita28@gmail.com'
+  href: 'mailto:'
+  title: 'Email'
+  fa-icon: 'fa fa-envelope-square'
+
+twitter:
+  id: 'dkselfkrlxk'
+  href: 'https://www.twitter.com/'
+  title: 'Twitter'
+  fa-icon: 'fa fa-twitter-square'
+
+github:
+  id: 'andiragita'
+  href: 'https://github.com/'
+  title: 'GitHub'
+  fa-icon: 'fa fa-github-square'
+
+stackoverflow:
+  id: '6332850'
+  href: 'https://stackoverflow.com/users/'
+  title: 'Stackoverflow'
+  fa-icon: 'fa fa-stack-overflow'
+
+goodreads:
+  id: 'andiragita'
+  href: 'https://goodreads.com/'
+  title: 'Goodreads'
+  fa-icon: 'fa fa-bookmark-o'

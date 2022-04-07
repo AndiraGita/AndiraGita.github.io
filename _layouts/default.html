@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  {%- include head.html -%}
+
+  <body>
+    {%- if page.url != '/' -%}
+      {%- include header.html -%}
+    {%- endif -%}
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+      <div class="wrapper">
+        {% if page.url == '/about/' or page.url == '/contact/'%}
+          {%- include social-media-links.html -%}
+        {% endif %}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

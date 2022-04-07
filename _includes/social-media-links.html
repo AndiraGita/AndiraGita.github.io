@@ -1,0 +1,16 @@
+{% if site.data.social-media%}
+<div style="text-align: center;">
+    {% assign sm = site.data.social-media %}
+    {% for entry in sm %}
+        {% assign key = entry | first%}
+        {% if sm[key].id%}
+            {% if key == 'stackoverflow' or key == 'goodreads'%}
+                {% assign size='35px'%}
+            {% else %}
+                {% assign size='40px'%}
+            {% endif %}
+            <a href="{{sm[key].href}}{{sm[key].id}}" title="sm[key].title"><i class="{{sm[key].fa-icon}}" style="font-size: {{size}}; color:#B87333; padding-right: 30px;"></i></a>
+        {% endif %}
+    {% endfor %}
+</div>
+{% endif %}
