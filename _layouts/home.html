@@ -14,12 +14,16 @@ layout: default
   <div class="wrapper" style="text-align: center;">
     {%- for path in page_paths -%}
       {%- assign my_page = site.pages | where: "path", path | first -%}
-      {%- if my_page.title -%}
-        <a class="page-link" style="color: black; padding-left: 10px;" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+      {%- if my_page.layout != 'tag_page'-%}
+        {%- if my_page.title -%}
+          <a class="page-link" style="color: black; padding-left: 10px;" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+        {%- endif -%}
       {%- endif -%}
     {%- endfor -%}
   </div>
 
+{%- include pagination-posts.html -%}
+<!-- 
 <div class="wrapper" style="padding-top: 10%;"> 
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
@@ -70,5 +74,5 @@ layout: default
   {%- endif -%}
   
 </div>
-  
+   -->
 </div>

@@ -5,7 +5,8 @@ permalink: /resume/
 ---
 <a href='{{ site.url }}/download/cv andira.pdf'> Click here </a> to download my resume in pdf.
 
-<h3 style="color: ; text-align: center; font-weight: bold; color: #B87333;"> Education </h3>
+<h3 class='sub-heading'> Education </h3>
+<hr>
 <li style='font-weight: bold'> AUG 2019 </li>
 BACHELOR OF COMPUTER SCIENCE, INSTITUT TEKNOLOGI SEPULUH NOPEMBER, INDONESIA <br>
 GPA: 3.75/4.0 <br>
@@ -16,8 +17,8 @@ GPA: 4.44/4.5 <br>
 Thesis: Optimization of Scheduling Strategies for Dynamic Stacking Problem in Uncertain Environment <br>
 
 
-<h3 style="color: ; text-align: center; font-weight: bold; color: #B87333;"> Experience </h3>
-
+<h3 class='sub-heading'> Experience </h3>
+<hr>
 <li style='font-weight: bold'> MAR 2020 – FEB 2022 </li>
 STUDENT RESEARCHER, INTELLIGENT SYSTEM LABORATORY, PNU <br>
 Help assisting in various projects in intelligent system laboratory. Mainly working using
@@ -35,7 +36,8 @@ Teaching, preparing lessons, and providing feedback for student in Web-Based Pro
 TEACHING ASSISTANT OF OPERATING SYSTEMS FOUNDATION CLASS, INFORMATION SYSTEM DEPARTMENT, ITS <br>
 Preparing lessons, and providing feedback for student in Operating Systems Foundation Class. Mainly helps monitoring laboratory work where students learn about the foundation of Windows and Linux operation system.
 
-<h3 style="color: ; text-align: center; font-weight: bold; color: #B87333;"> Volunteer and Organization </h3>
+<h3 class='sub-heading'> Volunteer and Organization </h3>
+<hr>
 <li style='font-weight: bold'> 2016 </li>
 IS/IT CAMPAIGN VOLUNTEER, INFORMATION SYSTEM DEPARTMENT, ITS <br>
 Teaching highschool student about how to utilize IT as a tool for learning.1 <br>
@@ -44,12 +46,23 @@ MANAGER OF RESEARCH AND TECHNOLOGY DEPARTMENT <br>
 BEM Fakultas Teknologi Informasi dan Komunikasi, ITS <br>
 
 
-<h3 style="color: ; text-align: center; font-weight: bold; color: #B87333;"> Awards </h3>
+<h3 class='sub-heading'> Awards </h3>
+<hr>
 <li style='font-weight: bold'> JUN 2021 </li>
 1st place in Dynamic Stacking Optimization in Uncertain Environments competition that held by GECCO (international conference) in 2021 <br>
 
-<h3 style="color: ; text-align: center; font-weight: bold; color: #B87333;"> Certifications </h3>
+<h3 class='sub-heading'> Certifications </h3>
+<hr>
 <li style='font-weight: bold'> AUG 2019 </li> 
 Participant of Digital Talent Scholarship Machine Learning
 <li style='font-weight: bold'> OCT 2019 </li> 
 AWS Certified Cloud Practitioner
+
+<h3 class='sub-heading'> Skill </h3>
+<hr>
+<li style='font-weight: bold'>LANGUAGE</li>
+<span style='font-weight: bold'> Experienced </span>: Python <br>
+<span style='font-weight: bold'> Familiar</span> : Java, JavaScript, HTML, PHP
+<li style='font-weight: bold'>OTHER</li>
+<span style='font-weight: bold'> Experienced </span>: MySQL, Machine Learning <br>
+<span style='font-weight: bold'> Familiar</span>: Tableau, Power BI, SAP, MongoDB, Redis, Amazon Web Service (AWS)
