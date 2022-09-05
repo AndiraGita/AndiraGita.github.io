@@ -29,10 +29,10 @@ Teaching, preparing lessons, and providing feedback for student in Enterprise Sy
 <li style='font-weight: bold'> JUL 2018 – AUG 2018 </li>
 INTERNSHIP STUDENT, TELKOM INDONESIA REGIONAL DIVISION 5 <br>
 Creating website to view availability of access point in the regional 5 of Telkom Indonesia.
-<li style='font-weight: bold'> JUL 2018 – AUG 2018 </li>
+<li style='font-weight: bold'> MAR 2017 – JUN 2017 </li>
 TEACHING ASSISTANT OF WEB-BASED PROGRAMMING CLASS, INFORMATION SYSTEM DEPARTMENT, ITS <br>
 Teaching, preparing lessons, and providing feedback for student in Web-Based Programming Class. Mainly teaching about the concept of MVC in website building and the implementation with bootstrap.
-<li style='font-weight: bold'> AUG 2017 – NOV 2017 </li>
+<li style='font-weight: bold'> MAR 2017 – JUN 2017 </li>
 TEACHING ASSISTANT OF OPERATING SYSTEMS FOUNDATION CLASS, INFORMATION SYSTEM DEPARTMENT, ITS <br>
 Preparing lessons, and providing feedback for student in Operating Systems Foundation Class. Mainly helps monitoring laboratory work where students learn about the foundation of Windows and Linux operation system.
 

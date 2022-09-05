@@ -10,7 +10,8 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
-  <h1 style="text-align: center; font-size: 400%; padding-top: 5%; font-weight: bold;"><span style="color: #B87333;">Andira</span> Gita Nawangsari</h1>
+  <h1 class='main-title'>Andira Gita Nawangsari</h1>
+  <hr>
   <div class="wrapper" style="text-align: center;">
     {%- for path in page_paths -%}
       {%- assign my_page = site.pages | where: "path", path | first -%}
@@ -21,6 +22,7 @@ layout: default
       {%- endif -%}
     {%- endfor -%}
   </div>
+  <hr>
 
 {%- include pagination-posts.html -%}
 <!-- 
