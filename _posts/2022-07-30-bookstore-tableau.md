@@ -3,6 +3,7 @@ layout: post
 portfolio: True
 title: Bookstore Dashboard using Tableau
 author: andira
+category: project
 tags: data-visualization tableau
 thumbnail: /assets/2022-07-30-bookstore-tableau/thumbnail.jpeg
 ---

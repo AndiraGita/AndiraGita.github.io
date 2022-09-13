@@ -3,6 +3,7 @@ layout: post
 portfolio: False
 title: Machine Learning using PySpark
 author: andira
+category: study
 tags: python pyspark
 ---
 <h3 class='sub-heading'> Background </h3>

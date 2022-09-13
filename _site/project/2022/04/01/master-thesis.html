@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Optimization of Scheduling Strategies for Dynamic Stacking Problem in Uncertain Environment | Andira Gita</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Optimization of Scheduling Strategies for Dynamic Stacking Problem in Uncertain Environment" />
+<meta name="author" content="andira" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Goals Creating a stacking algorithm for container industry so it could provide the most optimum stack with the smallest number of movement possible while minimize the waiting time of the external transportation." />
+<meta property="og:description" content="Goals Creating a stacking algorithm for container industry so it could provide the most optimum stack with the smallest number of movement possible while minimize the waiting time of the external transportation." />
+<link rel="canonical" href="http://localhost:4000/project/2022/04/01/master-thesis.html" />
+<meta property="og:url" content="http://localhost:4000/project/2022/04/01/master-thesis.html" />
+<meta property="og:site_name" content="Andira Gita" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-04-01T00:00:00+07:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Optimization of Scheduling Strategies for Dynamic Stacking Problem in Uncertain Environment" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"andira"},"dateModified":"2022-04-01T00:00:00+07:00","datePublished":"2022-04-01T00:00:00+07:00","description":"Goals Creating a stacking algorithm for container industry so it could provide the most optimum stack with the smallest number of movement possible while minimize the waiting time of the external transportation.","headline":"Optimization of Scheduling Strategies for Dynamic Stacking Problem in Uncertain Environment","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/project/2022/04/01/master-thesis.html"},"url":"http://localhost:4000/project/2022/04/01/master-thesis.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Andira Gita" /></head>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Source Sans Pro' rel='stylesheet'>
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+<body><header class="site-header">
+
+    <div class="wrapper"><a class="site-title" rel="author" href="/">
+        <i class="fa fa-home"></i >
+        <!-- <img src="/assets/img/logo.png" style="width: 40px; height: 40px;"/> -->
+      </a><nav class="site-nav">
+          <!--<input type="checkbox" id="nav-trigger" class="nav-trigger" />-->
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewBox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+              </svg>
+            </span>
+          </label>
+  
+          <div class="trigger"><a class="page-link" href="/about/">About Me</a><a class="page-link" href="/archive/">Archive</a><a class="page-link" href="/projects/">Projects</a><a class="page-link" href="/resources/">Resources</a><a class="page-link" href="/resume/">Resume</a></div>
+        </nav></div>
+  </header><main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Optimization of Scheduling Strategies for Dynamic Stacking Problem in Uncertain Environment</h1>
+    <p class="post-meta"><time class="dt-published" datetime="2022-04-01T00:00:00+07:00" itemprop="datePublished">
+        Apr 1, 2022
+      </time>• 
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span class="p-author h-card" itemprop="name">andira</span></span></p>
+    <p class="post-meta"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-tags" viewBox="0 0 15 15">
+        <path d="M3 2v4.586l7 7L14.586 9l-7-7H3zM2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586V2z"/>
+        <path d="M5.5 5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM1 7.086a1 1 0 0 0 .293.707L8.75 15.25l-.043.043a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 0 7.586V3a1 1 0 0 1 1-1v5.086z"/>
+      </svg> tags: 
+                
+                <a href="/tag/python">python&nbsp;</a>
+                
+                <a href="/tag/optimization">optimization&nbsp;</a>
+                
+                <a href="/tag/genetic-algorithm">genetic-algorithm&nbsp;</a></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h3 class="sub-heading"> Goals </h3>
+<p>Creating a stacking algorithm for container industry so it could provide the most optimum stack with the smallest number of movement possible while minimize the waiting time of the external transportation.</p>
+
+<h3 class="sub-heading"> Results </h3>
+<p><a href="https://sites.google.com/view/scheduling-dynstack/home"> Here </a> you can read the summary of this work, which involves optimization strategy using genetic algorithm for crane stacking situation.</p>
+
+  </div><a class="u-url" href="/project/2022/04/01/master-thesis.html" hidden></a>
+</article>
+      </div>
+      <div class="wrapper">
+        
+      </div>
+    </main><footer class="site-footer h-card foot-color">
+    <data class="u-url" href="/"></data>
+    <div class="wrapper">
+      <!-- <div class="footer-col-wrapper">
+        <div class="footer-col">
+          <p class="feed-subscribe">
+            <a href="/feed.xml">
+              <svg class="svg-icon orange">
+                <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+              </svg><span>Subscribe</span>
+            </a>
+          </p>
+        </div>
+      </div> -->
+      <div class="footer-col-wrapper">
+        <div class="footer-col">
+          © 2022 Andira. Powered by <a href="https://jekyllrb.com">Jekyll</a>.
+          <br><ul class="social-media-list"></ul></div>
+        <!-- <div class="footer-col right">
+          <div class="social-links"><ul class="social-media-list"><li><a href="https://github.com/andiragita"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">andiragita</span></a></li><li><a href="https://www.twitter.com/dkselfkrlxk"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">dkselfkrlxk</span></a></li></ul>
+</div>
+        </div> -->
+      </div>
+    </div>
+  
+  </footer></body>
+
+</html>

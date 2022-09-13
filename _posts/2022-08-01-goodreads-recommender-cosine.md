@@ -3,6 +3,7 @@ layout: post
 portfolio: True
 title: Goodreads Content Based Recommendation System
 author: andira
+category: project
 tags: python data-preprocessing recommendation-system
 thumbnail: '/assets/2022-08-01-goodreads-recommender-cosine/thumbnail.jpeg'
 ---

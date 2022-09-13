@@ -1,0 +1,11 @@
+{% capture tempcats %}
+  {% for cat in site.categories %}
+    {{ cat[1].size | plus: 1000 }}#{{ cat[0] }}#{{ cat[1].size }}
+  {% endfor %}
+{% endcapture %}
+{% assign sortedtempcats = tempcats | split:' ' | sort | reverse %}
+{% for tempcats in sortedtempcats %}
+  {% assign catitems = tempcats | split: '#' %}
+  <!-- {% capture catname %}{{ catitems[1] }}{% endcapture %} -->
+    <a href="/category/{{ catitems[1] }}"><code class="highligher-rouge"><nobr>{{ catitems[1] }}({{catitems[2]}})</nobr></code></a>
+{% endfor %}

@@ -3,6 +3,7 @@ layout: post
 portfolio: True
 title: Optimization of Scheduling Strategies for Dynamic Stacking Problem in Uncertain Environment 
 author: andira
+category: project
 tags: python optimization genetic-algorithm
 thumbnail: /assets/2022-04-01-master-thesis/thumbnail.jpeg
 ---

@@ -3,6 +3,7 @@ layout: post
 portfolio: True
 title: Goodreads Scrapper using BeautifulSoup on Python
 author: andira
+category: project
 tags: python data-acquisition
 thumbnail: '/assets/2022-08-04-goodreads-scrapper/thumbnail.jpeg'
 ---

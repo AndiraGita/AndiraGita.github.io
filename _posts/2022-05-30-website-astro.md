@@ -3,6 +3,7 @@ layout: post
 portfolio: True
 title: A Simple Landing Page for Astro Aji Abadi
 author: andira
+category: project
 tags: web-development html css php laravel
 thumbnail: /assets/2022-05-30-website-astro/thumbnail.jpeg
 ---

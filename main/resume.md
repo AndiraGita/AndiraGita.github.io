@@ -3,7 +3,9 @@ layout: page
 title: Resume
 permalink: /resume/
 ---
-<a href='{{ site.url }}/download/cv andira.pdf'> Click here </a> to download my resume in pdf.
+
+<a href='{{ site.url }}/download/cv andira.pdf'><button href='{{ site.url }}/download/cv andira.pdf' class='btn'> <i class="fa fa-download"></i> Download Resume</button></a>
+
 
 <h3 class='sub-heading'> Education </h3>
 <hr>
@@ -58,11 +60,18 @@ Participant of Digital Talent Scholarship Machine Learning
 <li style='font-weight: bold'> OCT 2019 </li> 
 AWS Certified Cloud Practitioner
 
-<h3 class='sub-heading'> Skill </h3>
+<h3 class='sub-heading'> Skill and Projects</h3>
 <hr>
-<li style='font-weight: bold'>LANGUAGE</li>
-<span style='font-weight: bold'> Experienced </span>: Python <br>
-<span style='font-weight: bold'> Familiar</span> : Java, JavaScript, HTML, PHP
-<li style='font-weight: bold'>OTHER</li>
-<span style='font-weight: bold'> Experienced </span>: MySQL, Machine Learning <br>
-<span style='font-weight: bold'> Familiar</span>: Tableau, Power BI, SAP, MongoDB, Redis, Amazon Web Service (AWS)
+<br>
+
+| Type | Experienced | Familiar|
+|-------|--------|---------|
+| Language | Python | Java, R |
+| Database| MySQL | MongoDB, Redis |
+| Data Visualization | Tableau | PowerBI |
+| Statistical Tools | Excel | SPSS |
+| Web Development | HTML, CSS | JavaSript, PHP  |
+| Collaboration | Github, Notion | - |
+| Other Platforms | Figma, Streamlit.io, Google Colab | SAP, AWS Cloud (EC2) |
+
+I frequently post about my projects in my personal github page. Please visit my <a href='http://andiragita.github.io'>blogs</a> for more details and up to date information.

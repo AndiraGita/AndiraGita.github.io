@@ -28,6 +28,7 @@ li > ul, li > ol { margin-bottom: 0; }
 h1, h2, h3, h4, h5, h6 { font-weight: 400; font-family: 'Playfair Display';}
 
 h3.sub-heading { font-weight: bold; color: #AD974F; }
+h2.sub-heading { font-weight: bold; color: #AD974F; margin-bottom: 0px;}
 
 /** Links */
 a { color: #2a7ae2; text-decoration: none; }
@@ -308,4 +309,23 @@ h1.main-title {
     font-size: 400%; 
     padding-top: 5%; 
     font-weight: bold;
+}
+
+.btn {
+    background-color: #AD974F;
+    border: none;
+    color: white;
+    padding: 6px 6px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 6px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: #847239;
+  }
+
+br.large {
+    line-height:100px;
 }
