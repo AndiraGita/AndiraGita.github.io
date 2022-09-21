@@ -1,4 +1,4 @@
-I"�<p><a href="http://localhost:4000/download/cv andira.pdf"> Click here </a> to download my resume in pdf.</p>
+I"c<p><a href="http://localhost:4000/download/cv andira.pdf"><button href="http://localhost:4000/download/cv andira.pdf" class="btn"> <i class="fa fa-download"></i> Download Resume</button></a></p>
 
 <h3 class="sub-heading"> Education </h3>
 <hr />
@@ -19,7 +19,7 @@ Thesis: Optimization of Scheduling Strategies for Dynamic Stacking Problem in Un
 <p>STUDENT RESEARCHER, INTELLIGENT SYSTEM LABORATORY, PNU <br />
 Help assisting in various projects in intelligent system laboratory. Mainly working using
 programming language python for machine learning and data analytics. <br /></p>
-<li style="font-weight: bold"> AUG 2018 – NOV 2018 </li>
+<li style="font-weight: bold"> MAR 2019 – JUN 2019 </li>
 <p>TEACHING ASSISTANT OF ENTERPRISE SYSTEM CLASS, INFORMATION SYSTEM DEPARTMENT, ITS <br />
 Teaching, preparing lessons, and providing feedback for student in Enterprise System Class, which learn about the usage of SAP in the enterprise.</p>
 <li style="font-weight: bold"> JUL 2018 – AUG 2018 </li>
@@ -56,13 +56,57 @@ BEM Fakultas Teknologi Informasi dan Komunikasi, ITS <br /></p>
 <li style="font-weight: bold"> OCT 2019 </li>
 <p>AWS Certified Cloud Practitioner</p>
 
-<h3 class="sub-heading"> Skill </h3>
+<h3 class="sub-heading"> Skill and Projects</h3>
 <hr />
 
-<li style="font-weight: bold">LANGUAGE</li>
-<p><span style="font-weight: bold"> Experienced </span>: Python <br />
-<span style="font-weight: bold"> Familiar</span> : Java, JavaScript, HTML, PHP</p>
-<li style="font-weight: bold">OTHER</li>
-<p><span style="font-weight: bold"> Experienced </span>: MySQL, Machine Learning <br />
-<span style="font-weight: bold"> Familiar</span>: Tableau, Power BI, SAP, MongoDB, Redis, Amazon Web Service (AWS)</p>
+<p><br /></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Experienced</th>
+      <th>Familiar</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Language</td>
+      <td>Python</td>
+      <td>Java, R</td>
+    </tr>
+    <tr>
+      <td>Database</td>
+      <td>MySQL</td>
+      <td>MongoDB, Redis</td>
+    </tr>
+    <tr>
+      <td>Data Visualization</td>
+      <td>Tableau</td>
+      <td>PowerBI</td>
+    </tr>
+    <tr>
+      <td>Statistical Tools</td>
+      <td>Excel</td>
+      <td>SPSS</td>
+    </tr>
+    <tr>
+      <td>Web Development</td>
+      <td>HTML, CSS</td>
+      <td>JavaScript, PHP</td>
+    </tr>
+    <tr>
+      <td>Collaboration</td>
+      <td>Github, Notion</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Other Platforms</td>
+      <td>Figma, Streamlit.io, Google Colab</td>
+      <td>SAP, AWS Cloud (EC2)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>I frequently post about my projects in my personal github page. Please visit my <a href="http://andiragita.github.io">blogs</a> for more details and up to date information.</p>
 :ET

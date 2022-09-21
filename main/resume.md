@@ -25,7 +25,7 @@ Thesis: Optimization of Scheduling Strategies for Dynamic Stacking Problem in Un
 STUDENT RESEARCHER, INTELLIGENT SYSTEM LABORATORY, PNU <br>
 Help assisting in various projects in intelligent system laboratory. Mainly working using
 programming language python for machine learning and data analytics. <br>
-<li style='font-weight: bold'> AUG 2018 – NOV 2018 </li>
+<li style='font-weight: bold'> MAR 2019 – JUN 2019 </li>
 TEACHING ASSISTANT OF ENTERPRISE SYSTEM CLASS, INFORMATION SYSTEM DEPARTMENT, ITS <br>
 Teaching, preparing lessons, and providing feedback for student in Enterprise System Class, which learn about the usage of SAP in the enterprise.
 <li style='font-weight: bold'> JUL 2018 – AUG 2018 </li>
@@ -70,7 +70,7 @@ AWS Certified Cloud Practitioner
 | Database| MySQL | MongoDB, Redis |
 | Data Visualization | Tableau | PowerBI |
 | Statistical Tools | Excel | SPSS |
-| Web Development | HTML, CSS | JavaSript, PHP  |
+| Web Development | HTML, CSS | JavaScript, PHP  |
 | Collaboration | Github, Notion | - |
 | Other Platforms | Figma, Streamlit.io, Google Colab | SAP, AWS Cloud (EC2) |
 
